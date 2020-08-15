@@ -1,8 +1,4 @@
-interface Building {
-  name: string;
-  apartmentsCount: number;
-  distance: number 
-}
+import Building from './Building';
 
 class Neighborhood {
   public neighborhood: string;
